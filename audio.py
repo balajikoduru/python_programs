@@ -6,7 +6,6 @@ language="en-US"
 text = ("hello")
 sp=gtts.gTTS(text, lang=language,tld="co.in", slow=False)
 sp.save(audio)
-for i in range(2):
-      playsound(audio)
+playsound(audio)
 print("playing the audio ")
 
